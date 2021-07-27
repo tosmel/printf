@@ -1,4 +1,4 @@
-#ifndef HOL#ifndef HOLBERTON_H
+#ifndef HOLBERTON_H
 #define HOLBERTON_H
 #include <unistd.h>
 #include <stdlib.h>
@@ -14,8 +14,8 @@
 
 typedef struct format_func
 {
-        char *c;
-        int (*f)();
+	char *c;
+	int (*f)();
 } print_fx;
 
 int _printf(const char *format, ...);
@@ -31,5 +31,4 @@ int print_r(va_list args);
 int print_R(va_list args);
 int _putchar(char c);
 
-#endiBERTON_H
-#define HOLBERTON_H
+#endif /* HOLBERTON_H */
